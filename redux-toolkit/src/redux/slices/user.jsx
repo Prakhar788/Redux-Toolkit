@@ -12,7 +12,7 @@ export const userSlice=createSlice({
             state.value=initialStateValue;
         },
     },
-});
+})
 
 export const {login,logout}=userSlice.actions;
 export default userSlice.reducer;
