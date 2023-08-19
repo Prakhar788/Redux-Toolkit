@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Counter from './components/Counter'
+import Profile from './components/Profile'
+import Login from './components/Login'
 
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
     <>
     <h1>Redux-Toolkit</h1>
     <Counter/>
+    <Login/>
+    <Profile/>
   </>
   )
 }

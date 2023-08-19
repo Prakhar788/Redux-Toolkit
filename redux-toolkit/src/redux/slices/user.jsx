@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialStateValue={name:"Prakhar",age:20,email:""}
+const initialStateValue={name:"Prakhar",age:0,email:""}
 export const userSlice=createSlice({
     name:"user",
     initialState:{value:initialStateValue},
@@ -8,7 +8,7 @@ export const userSlice=createSlice({
         login:(state,action)=>{
             state.value=action.payload;
         },
-        logut:(state,action)=>{
+        logout:(state,action)=>{
             state.value=initialStateValue;
         },
     },
